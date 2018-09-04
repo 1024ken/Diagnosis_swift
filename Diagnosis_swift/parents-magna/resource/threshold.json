@@ -1,0 +1,42 @@
+[
+  {
+    "oceanType": "openness",
+    "displayOceanType": "開放性",
+    "threshold": 16.81,
+    "five_threshold":[8 ,11.524,15.048,18.248,21.124,24],
+    "upper":"ロマンチスト",
+    "lower":"げんじつてき"
+  },
+  {
+    "oceanType": "conscientiousness",
+    "displayOceanType": "誠実性",
+    "threshold": 16.69,
+    "five_threshold":[8,11.476,14.952,18.152,21.076,24],
+     "upper":"だいたん",
+     "lower":"コツコツ"
+  },
+  {
+    "oceanType": "extroversion",
+    "displayOceanType": "外向性",
+     "threshold": 17.11,
+     "five_threshold":[8,11.644,15.288,18.488,21.244,24],
+     "upper":"アウトドア",
+     "lower":"インドア"
+  },
+  {
+    "oceanType": "agreeableness",
+    "displayOceanType": "協調性",
+     "threshold": 19,
+     "five_threshold":[8,12.4,16.8,20,22,24],
+     "upper":"きくばりじょうず",
+     "lower":"じぶんだいじに"
+  },
+  {
+    "oceanType": "neuroticism",
+    "displayOceanType": "情緒性",
+     "threshold": 16.9,
+     "five_threshold":[8,11.56,15.12,18.32,21.16,24,],
+     "upper":"こまやか",
+     "lower":"おだやか"
+  }
+]

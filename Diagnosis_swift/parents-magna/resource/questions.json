@@ -1,0 +1,323 @@
+[
+  {
+    "number": 0,
+    "oceanType": "openness",
+    "text": "ぼんやりいろいろなことを\r\n考えるのが楽しい",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 1,
+    "oceanType": "openness",
+    "text": "よく空想にふける",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 2,
+    "oceanType": "openness",
+    "text": "できそうにもないことを\r\nぼんやり考えることがある",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 3,
+    "oceanType": "openness",
+    "text": "わけのわからないものに\r\nきょうみを持つ",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 4,
+    "oceanType": "openness",
+    "text": "時々ぽかんとしている",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 5,
+    "oceanType": "openness",
+    "text": "別世界へ行ってみたい",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 6,
+    "oceanType": "openness",
+    "text": "あれこれ考えすぎて\r\n何もできないことがある",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 7,
+    "oceanType": "openness",
+    "text": "私には自分も知らない一面があると思う",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 8,
+    "oceanType": "conscientiousness",
+    "text": "なんでも一生けんめいにとりくむ方だ",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 9,
+    "oceanType": "conscientiousness",
+    "text": "会や集まりの時人よりすすんで働く",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 10,
+    "oceanType": "conscientiousness",
+    "text": "きめられた仕事は責任を持って\r\nやりとおす",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 11,
+    "oceanType": "conscientiousness",
+    "text": "計画をたてて勉強している",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 12,
+    "oceanType": "conscientiousness",
+    "text": "仕事をするのがはやい方だ",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 13,
+    "oceanType": "conscientiousness",
+    "text": "やくそくはきちんと守る",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 14,
+    "oceanType": "conscientiousness",
+    "text": "リーダーに選ばれることが多い",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 15,
+    "oceanType": "conscientiousness",
+    "text": "自分の気持ちをたいせつにする",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 16,
+    "oceanType": "extroversion",
+    "text": "目立ちたがりやである",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 17,
+    "oceanType": "extroversion",
+    "text": "じっとしているのがきらいだ",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 18,
+    "oceanType": "extroversion",
+    "text": "気が短い",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 19,
+    "oceanType": "extroversion",
+    "text": "いたずらをされるとだまっておれない",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 20,
+    "oceanType": "extroversion",
+    "text": "よく考えずになんでもやってしまう",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 21,
+    "oceanType": "extroversion",
+    "text": "じょうだんを言ったり\r\nふざけたりすることはあまりない",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 22,
+    "oceanType": "extroversion",
+    "text": "あまりかっとならない",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 23,
+    "oceanType": "extroversion",
+    "text": "おとなしい方だ",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 24,
+    "oceanType": "agreeableness",
+    "text": "心からたよりにできる友達が少ない",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 25,
+    "oceanType": "agreeableness",
+    "text": "自分をつまらない人間だと思う",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 26,
+    "oceanType": "agreeableness",
+    "text": "だれも私の話をよく聞いてくれない",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 27,
+    "oceanType": "agreeableness",
+    "text": "人から冷たい人間だと思われている",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 28,
+    "oceanType": "agreeableness",
+    "text": "気にいらないことが多い",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 29,
+    "oceanType": "agreeableness",
+    "text": "人はみんな自分さえ良ければと\r\n思っている",
+    "scoreNo":3,
+    "scoreNeither":2,
+    "scoreYes":1
+  },
+  {
+    "number": 30,
+    "oceanType": "agreeableness",
+    "text": "だれとでも仲良くなれる",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 31,
+    "oceanType": "agreeableness",
+    "text": "まわりに親切な人が多い",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 32,
+    "oceanType": "neuroticism",
+    "text": "失敗しないかといつも心配だ",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 33,
+    "oceanType": "neuroticism",
+    "text": "まちがいをしないかと、気になる",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 34,
+    "oceanType": "neuroticism",
+    "text": "ちょっとしたことをくよくよと気にする",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 35,
+    "oceanType": "neuroticism",
+    "text": "ひとから見られているとおちつかない",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 36,
+    "oceanType": "neuroticism",
+    "text": "なかなか決心がつかない",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 37,
+    "oceanType": "neuroticism",
+    "text": "はずかしがりやである",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 38,
+    "oceanType": "neuroticism",
+    "text": "何をしても、\r\nうまくいかないような気がする",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  },
+  {
+    "number": 39,
+    "oceanType": "neuroticism",
+    "text": "人のすることが気になる",
+    "scoreNo":1,
+    "scoreNeither":2,
+    "scoreYes":3
+  }
+]
+

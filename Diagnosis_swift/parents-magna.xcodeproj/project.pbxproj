@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		764FDA6F1FFF575F00A32D85 /* DiagnoseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 764FDA6E1FFF575F00A32D85 /* DiagnoseViewController.swift */; };
+		767711C61FAFF5D7001345CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767711C51FAFF5D7001345CA /* AppDelegate.swift */; };
+		767711CF1FAFF5D7001345CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767711CD1FAFF5D7001345CA /* Main.storyboard */; };
+		767711D11FAFF5D7001345CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 767711D01FAFF5D7001345CA /* Assets.xcassets */; };
+		767711D41FAFF5D7001345CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 767711D21FAFF5D7001345CA /* LaunchScreen.storyboard */; };
+		767711DF1FAFF5D7001345CA /* parents_magnaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767711DE1FAFF5D7001345CA /* parents_magnaTests.swift */; };
+		767711EA1FAFF5D7001345CA /* parents_magnaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767711E91FAFF5D7001345CA /* parents_magnaUITests.swift */; };
+		7682E05120046A2D0049CCA9 /* CompatibleReadingResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7682E05020046A2D0049CCA9 /* CompatibleReadingResultViewController.swift */; };
+		76B6A4FE2004587B006E8C84 /* TwoColumnsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B6A4FD2004587B006E8C84 /* TwoColumnsTableViewController.swift */; };
+		76F4F3E51FB17A60005C0CFC /* Greatmans.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F4F3E41FB17A60005C0CFC /* Greatmans.xcassets */; };
+		76F4F3E71FB17A70005C0CFC /* Checkbox.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76F4F3E61FB17A70005C0CFC /* Checkbox.xcassets */; };
+		CF141C851FB1603D00F57A19 /* resource in Resources */ = {isa = PBXBuildFile; fileRef = CF141C811FB15EFF00F57A19 /* resource */; };
+		CFD3107A200347E900F1D945 /* DiagnoseResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD31079200347E900F1D945 /* DiagnoseResultViewController.swift */; };
+		CFD3107C20034FC600F1D945 /* GreatManListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD3107B20034FC600F1D945 /* GreatManListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		767711DB1FAFF5D7001345CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767711BA1FAFF5D7001345CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767711C11FAFF5D7001345CA;
+			remoteInfo = "parents-magna";
+		};
+		767711E61FAFF5D7001345CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 767711BA1FAFF5D7001345CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 767711C11FAFF5D7001345CA;
+			remoteInfo = "parents-magna";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		764FDA6E1FFF575F00A32D85 /* DiagnoseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnoseViewController.swift; sourceTree = "<group>"; };
+		767711C21FAFF5D7001345CA /* parents-magna.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "parents-magna.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767711C51FAFF5D7001345CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		767711CE1FAFF5D7001345CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		767711D01FAFF5D7001345CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		767711D31FAFF5D7001345CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		767711D51FAFF5D7001345CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767711DA1FAFF5D7001345CA /* parents-magnaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "parents-magnaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767711DE1FAFF5D7001345CA /* parents_magnaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parents_magnaTests.swift; sourceTree = "<group>"; };
+		767711E01FAFF5D7001345CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		767711E51FAFF5D7001345CA /* parents-magnaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "parents-magnaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		767711E91FAFF5D7001345CA /* parents_magnaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parents_magnaUITests.swift; sourceTree = "<group>"; };
+		767711EB1FAFF5D7001345CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7682E05020046A2D0049CCA9 /* CompatibleReadingResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompatibleReadingResultViewController.swift; sourceTree = "<group>"; };
+		76B6A4FD2004587B006E8C84 /* TwoColumnsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoColumnsTableViewController.swift; sourceTree = "<group>"; };
+		76F4F3E41FB17A60005C0CFC /* Greatmans.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Greatmans.xcassets; path = resource/Greatmans.xcassets; sourceTree = "<group>"; };
+		76F4F3E61FB17A70005C0CFC /* Checkbox.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Checkbox.xcassets; path = resource/Checkbox.xcassets; sourceTree = "<group>"; };
+		CF141C811FB15EFF00F57A19 /* resource */ = {isa = PBXFileReference; lastKnownFileType = folder; path = resource; sourceTree = "<group>"; };
+		CFD31079200347E900F1D945 /* DiagnoseResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnoseResultViewController.swift; sourceTree = "<group>"; };
+		CFD3107B20034FC600F1D945 /* GreatManListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreatManListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		767711BF1FAFF5D7001345CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711D71FAFF5D7001345CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711E21FAFF5D7001345CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		767711B91FAFF5D7001345CA = {
+			isa = PBXGroup;
+			children = (
+				767711C41FAFF5D7001345CA /* parents-magna */,
+				767711DD1FAFF5D7001345CA /* parents-magnaTests */,
+				767711E81FAFF5D7001345CA /* parents-magnaUITests */,
+				767711C31FAFF5D7001345CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		767711C31FAFF5D7001345CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				767711C21FAFF5D7001345CA /* parents-magna.app */,
+				767711DA1FAFF5D7001345CA /* parents-magnaTests.xctest */,
+				767711E51FAFF5D7001345CA /* parents-magnaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		767711C41FAFF5D7001345CA /* parents-magna */ = {
+			isa = PBXGroup;
+			children = (
+				767711C51FAFF5D7001345CA /* AppDelegate.swift */,
+				764FDA6E1FFF575F00A32D85 /* DiagnoseViewController.swift */,
+				CFD31079200347E900F1D945 /* DiagnoseResultViewController.swift */,
+				76B6A4FD2004587B006E8C84 /* TwoColumnsTableViewController.swift */,
+				CFD3107B20034FC600F1D945 /* GreatManListView.swift */,
+				7682E05020046A2D0049CCA9 /* CompatibleReadingResultViewController.swift */,
+				767711CD1FAFF5D7001345CA /* Main.storyboard */,
+				767711D01FAFF5D7001345CA /* Assets.xcassets */,
+				76F4F3E41FB17A60005C0CFC /* Greatmans.xcassets */,
+				76F4F3E61FB17A70005C0CFC /* Checkbox.xcassets */,
+				CF141C811FB15EFF00F57A19 /* resource */,
+				767711D21FAFF5D7001345CA /* LaunchScreen.storyboard */,
+				767711D51FAFF5D7001345CA /* Info.plist */,
+			);
+			path = "parents-magna";
+			sourceTree = "<group>";
+		};
+		767711DD1FAFF5D7001345CA /* parents-magnaTests */ = {
+			isa = PBXGroup;
+			children = (
+				767711DE1FAFF5D7001345CA /* parents_magnaTests.swift */,
+				767711E01FAFF5D7001345CA /* Info.plist */,
+			);
+			path = "parents-magnaTests";
+			sourceTree = "<group>";
+		};
+		767711E81FAFF5D7001345CA /* parents-magnaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				767711E91FAFF5D7001345CA /* parents_magnaUITests.swift */,
+				767711EB1FAFF5D7001345CA /* Info.plist */,
+			);
+			path = "parents-magnaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		767711C11FAFF5D7001345CA /* parents-magna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767711EE1FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magna" */;
+			buildPhases = (
+				767711BE1FAFF5D7001345CA /* Sources */,
+				767711BF1FAFF5D7001345CA /* Frameworks */,
+				767711C01FAFF5D7001345CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "parents-magna";
+			productName = "parents-magna";
+			productReference = 767711C21FAFF5D7001345CA /* parents-magna.app */;
+			productType = "com.apple.product-type.application";
+		};
+		767711D91FAFF5D7001345CA /* parents-magnaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767711F11FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magnaTests" */;
+			buildPhases = (
+				767711D61FAFF5D7001345CA /* Sources */,
+				767711D71FAFF5D7001345CA /* Frameworks */,
+				767711D81FAFF5D7001345CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767711DC1FAFF5D7001345CA /* PBXTargetDependency */,
+			);
+			name = "parents-magnaTests";
+			productName = "parents-magnaTests";
+			productReference = 767711DA1FAFF5D7001345CA /* parents-magnaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		767711E41FAFF5D7001345CA /* parents-magnaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 767711F41FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magnaUITests" */;
+			buildPhases = (
+				767711E11FAFF5D7001345CA /* Sources */,
+				767711E21FAFF5D7001345CA /* Frameworks */,
+				767711E31FAFF5D7001345CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				767711E71FAFF5D7001345CA /* PBXTargetDependency */,
+			);
+			name = "parents-magnaUITests";
+			productName = "parents-magnaUITests";
+			productReference = 767711E51FAFF5D7001345CA /* parents-magnaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		767711BA1FAFF5D7001345CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = KenichiWatanabe;
+				TargetAttributes = {
+					767711C11FAFF5D7001345CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					767711D91FAFF5D7001345CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9K4HWEH28R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 767711C11FAFF5D7001345CA;
+					};
+					767711E41FAFF5D7001345CA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 9K4HWEH28R;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 767711C11FAFF5D7001345CA;
+					};
+				};
+			};
+			buildConfigurationList = 767711BD1FAFF5D7001345CA /* Build configuration list for PBXProject "parents-magna" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 767711B91FAFF5D7001345CA;
+			productRefGroup = 767711C31FAFF5D7001345CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				767711C11FAFF5D7001345CA /* parents-magna */,
+				767711D91FAFF5D7001345CA /* parents-magnaTests */,
+				767711E41FAFF5D7001345CA /* parents-magnaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		767711C01FAFF5D7001345CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76F4F3E71FB17A70005C0CFC /* Checkbox.xcassets in Resources */,
+				CF141C851FB1603D00F57A19 /* resource in Resources */,
+				76F4F3E51FB17A60005C0CFC /* Greatmans.xcassets in Resources */,
+				767711D41FAFF5D7001345CA /* LaunchScreen.storyboard in Resources */,
+				767711D11FAFF5D7001345CA /* Assets.xcassets in Resources */,
+				767711CF1FAFF5D7001345CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711D81FAFF5D7001345CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711E31FAFF5D7001345CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		767711BE1FAFF5D7001345CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD3107A200347E900F1D945 /* DiagnoseResultViewController.swift in Sources */,
+				76B6A4FE2004587B006E8C84 /* TwoColumnsTableViewController.swift in Sources */,
+				764FDA6F1FFF575F00A32D85 /* DiagnoseViewController.swift in Sources */,
+				767711C61FAFF5D7001345CA /* AppDelegate.swift in Sources */,
+				7682E05120046A2D0049CCA9 /* CompatibleReadingResultViewController.swift in Sources */,
+				CFD3107C20034FC600F1D945 /* GreatManListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711D61FAFF5D7001345CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767711DF1FAFF5D7001345CA /* parents_magnaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		767711E11FAFF5D7001345CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767711EA1FAFF5D7001345CA /* parents_magnaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		767711DC1FAFF5D7001345CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767711C11FAFF5D7001345CA /* parents-magna */;
+			targetProxy = 767711DB1FAFF5D7001345CA /* PBXContainerItemProxy */;
+		};
+		767711E71FAFF5D7001345CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 767711C11FAFF5D7001345CA /* parents-magna */;
+			targetProxy = 767711E61FAFF5D7001345CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		767711CD1FAFF5D7001345CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767711CE1FAFF5D7001345CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		767711D21FAFF5D7001345CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				767711D31FAFF5D7001345CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		767711EC1FAFF5D7001345CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		767711ED1FAFF5D7001345CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		767711EF1FAFF5D7001345CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP6DYKT7C4;
+				INFOPLIST_FILE = "parents-magna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.parents-magna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		767711F01FAFF5D7001345CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HP6DYKT7C4;
+				INFOPLIST_FILE = "parents-magna/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wk.parents-magna";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		767711F21FAFF5D7001345CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9K4HWEH28R;
+				INFOPLIST_FILE = "parents-magnaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintflag.parents-magnaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parents-magna.app/parents-magna";
+			};
+			name = Debug;
+		};
+		767711F31FAFF5D7001345CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9K4HWEH28R;
+				INFOPLIST_FILE = "parents-magnaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintflag.parents-magnaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parents-magna.app/parents-magna";
+			};
+			name = Release;
+		};
+		767711F51FAFF5D7001345CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9K4HWEH28R;
+				INFOPLIST_FILE = "parents-magnaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintflag.parents-magnaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "parents-magna";
+			};
+			name = Debug;
+		};
+		767711F61FAFF5D7001345CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 9K4HWEH28R;
+				INFOPLIST_FILE = "parents-magnaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mintflag.parents-magnaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "parents-magna";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		767711BD1FAFF5D7001345CA /* Build configuration list for PBXProject "parents-magna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767711EC1FAFF5D7001345CA /* Debug */,
+				767711ED1FAFF5D7001345CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767711EE1FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767711EF1FAFF5D7001345CA /* Debug */,
+				767711F01FAFF5D7001345CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767711F11FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magnaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767711F21FAFF5D7001345CA /* Debug */,
+				767711F31FAFF5D7001345CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		767711F41FAFF5D7001345CA /* Build configuration list for PBXNativeTarget "parents-magnaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				767711F51FAFF5D7001345CA /* Debug */,
+				767711F61FAFF5D7001345CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 767711BA1FAFF5D7001345CA /* Project object */;
+}
